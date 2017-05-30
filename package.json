@@ -1,0 +1,29 @@
+{
+  "name": "qb1-token-codes",
+  "version": "1.0.0",
+  "description": "Serialization token codes for qb1 data format",
+  "homepage": "https://github.com/quicbit-js/qb1-token-codes",
+  "url": "https://github.com/quicbit-js/qb1-token-codes/issues",
+  "email": "support@quicbit.com",
+  "repository": "quicbit-js/qb1-token-codes",
+  "devDependencies": {
+    "tape": "^4.6.3",
+    "test-kit": "^2.5.1"
+  },
+  "scripts": {
+    "test": "tape test.js",
+    "cov": "tap --coverage-report=html test.js"
+  },
+  "keywords": [
+    "fast",
+    "compact",
+    "minimal",
+    "qb",
+    "qb1",
+    "quicbit",
+    "data",
+    "performance"
+  ],
+  "author": "Matthew Voss",
+  "license": "ISC"
+}
