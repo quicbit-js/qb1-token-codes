@@ -20,6 +20,8 @@ function codes() {
         OBJ_END:    '}',    // 125
         ARR_BEG:    '[',    // 91
         ARR_END:    ']',    // 93
+        ARGS_BEG:   '(',    // 40
+        ARGS_END:   ')',    // 41
         NUMBER:     'n',    // 110
         STRING:     '"',    // 34
         UNKNOWN:    '?',    // 63

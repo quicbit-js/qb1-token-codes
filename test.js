@@ -20,7 +20,7 @@ var TOK = require('.')
 test('codes', function (t) {
     t.plan(1)
     var vals = Object.keys(TOK).map(function (k) { return String.fromCharCode(TOK[k]) }).sort()
-    t.same(vals, [ '"', '?', 'F', 'N', 'T', '[', ']', 'n', '{', '}' ])
+    t.same(vals, [ '"', '(', ')', '?', 'F', 'N', 'T', '[', ']', 'n', '{', '}' ])
 })
 
 
